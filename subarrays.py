@@ -6,6 +6,9 @@ def sub(array):
       result = []
       for j in range(startPoint, lenSubArray):
         result.append(array[j])
-      print(result)
-    
-sub([1, 2, 3])
+      if result :
+        print(result)
+  print([])  
+  
+if __name__ == '__main__' :    
+  sub([1, 2, 3])
